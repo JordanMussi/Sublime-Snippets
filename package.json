@@ -1,0 +1,20 @@
+{
+	"name": "Sublime-Snippets",
+	"url": "https://github.com/JordanMussi/Sublime-Snippets",
+	"description": "A collection of useful snippets in Sublime Text 2",
+	"maintainers": [
+		{
+			"name": "Jordan Mussi",
+			"web": "https://github.com/JordanMussi"
+		}
+	],
+	"bugs": {
+		"web": "https://github.com/JordanMussi/Sublime-Snippets/issues"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/JordanMussi/Sublime-Snippets.git"
+		}
+	]
+}
