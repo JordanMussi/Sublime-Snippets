@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\$l['${1:prefix}_${2:title}'] = "${3:content}";]]></content>
+	<tabTrigger>mybblang</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>MyBB Language Line Template</description>
+</snippet>

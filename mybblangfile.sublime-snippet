@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[<?php
+/**
+ * Plugin Author: Jordan Mussi <https://github.com/JordanMussi>
+ * File: ./inc/languages/${1:english}/${2:title}.lang.php
+ *
+ * Translation Author: Jordan Mussi <https://github.com/JordanMussi>
+ *
+ * License:
+ *  
+ *    This program is free software: you can redistribute it and/or modify it under 
+ *    the terms of the GNU General Public License as published by the Free Software 
+ *    Foundation, either version 3 of the License, or (at your option) any later 
+ *    version.
+ *    
+ *    This program is distributed in the hope that it will be useful, but WITHOUT ANY 
+ *    WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ *    FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License 
+ *    for more details.
+ *
+ *    You should have received a copy of the GNU General Public License
+ *    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+// Misc
+\$l['${2:title}_plugin_name'] = '${3:Title}';
+\$l['${2:title}_plugin_desc'] = '${4:Description}';
+
+// Setting Group
+\$l['${2:title}_settings_group'] = '${3:Title}';
+\$l['${2:title}_settings_group_desc'] = 'Settings for the ${3:Title} plugin.';
+
+// Settings
+\$l['${2:title}_setting_${5:setting}'] = '${6:Setting}';
+\$l['${2:title}_setting_${5:setting}_desc'] = 'Description for ${6:Setting}';
+
+?>]]></content>
+	<tabTrigger>mybblangfile</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>MyBB Language File Template</description>
+</snippet>
